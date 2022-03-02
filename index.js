@@ -28,4 +28,6 @@ app.get('/projects', (req, res)=>{
     res.render('projects', {projects : projects});
 })
   
-app.listen(3000)
+app.listen(3000, () => {
+    console.log("Started the server");
+})
