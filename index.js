@@ -12,7 +12,7 @@ app.get('/', (req, res)=>{
 
 var demo = {
     name : 'Rohan',
-    age : 26
+    age : 28
 }
   
 app.get('/data', (req, res)=>{
